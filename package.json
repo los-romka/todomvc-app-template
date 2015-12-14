@@ -1,7 +1,10 @@
 {
   "private": true,
   "dependencies": {
-    "todomvc-app-css": "^2.0.0",
-    "todomvc-common": "^1.0.0"
+    "dustjs-helpers": "^1.7.3",
+    "dustjs-linkedin": "^2.7.2",
+    "jquery": "~2.1.4",
+    "director": "~1.2.8",
+    "todomvc-app-css": "^2.0.0"
   }
 }

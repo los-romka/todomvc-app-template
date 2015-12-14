@@ -1,8 +1,18 @@
-/*
+.overlay-loading {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background: gray;
+    color: white;
+    padding-left: 16px;
+}
 
-app-template.css overrides
+.overlay-loading.active {
+    display: block;
+}
 
-remove this comment if used
-remove this file if not
-
-*/
+.overlay-loading.active+.new-todo{
+    pointer-events: none;
+    tab-index: -1;
+    opacity: 0;
+}

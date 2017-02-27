@@ -1,0 +1,14 @@
+{
+  "home": "Todo:index",
+  "todo": "Todo:index",
+  "todo_findall": "Todo:findAll",
+  "todo_create": "Todo:create",
+  "todo_change_title": "Todo:changTitle",
+  "todo_change_completeness": "Todo:changeCompleteness",
+  "todo_destroy": "Todo:destroy",
+
+  "user_login": "User:login",
+  "user_logout": "User:logout",
+  "user_check": "User:check",
+  "user_registration": "User:registration"
+}
